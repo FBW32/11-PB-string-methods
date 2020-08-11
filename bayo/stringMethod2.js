@@ -22,5 +22,5 @@ console.log(whoThat);
 
 // EXERCISE 3
 // Extract only the last character.
-let lastMan = myText.slice(-6);
+let lastMan = myText.slice(-1);
 console.log(lastMan);
