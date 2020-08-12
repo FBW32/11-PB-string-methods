@@ -19,5 +19,8 @@ console.log(who);
 
 /* Extract only the last  character.
  */
-let lastCharacter = txt.substr(43);
-console.log(lastCharacter);
+/* let lastCharacter = txt.substr(43);
+console.log(lastCharacter); */
+
+let lastChar = txt.slice(-1);
+console.log(lastChar);
